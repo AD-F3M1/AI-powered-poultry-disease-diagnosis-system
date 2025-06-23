@@ -1,0 +1,26 @@
+# Ignore virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore dataset folder (optional, only if it's large or available elsewhere)
+dataset/
+
+# Ignore model weights and output files
+*.h5
+*.pt
+*.pth
+*.pkl
+*.tflite
+
+# Ignore temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore any OS generated folders
+Thumbs.db
+ehthumbs.db
